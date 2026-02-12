@@ -43,7 +43,8 @@ export default function Overlay() {
                 <div className="text-center">
                     <h1 className="text-6xl md:text-9xl font-bold tracking-tighter uppercase text-white mix-blend-difference">
                         Pagani <br />
-                        <span className="text-[#D4AF37] text-glow">Zonda Utopia</span>
+                        <span className="text-[#D4AF37] text-glow">Utopia</span>
+
                     </h1>
                     <p className="mt-4 text-sm tracking-[0.5em] text-gray-400 uppercase">
                         Start Scrolling

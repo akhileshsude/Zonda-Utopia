@@ -14,7 +14,8 @@ import SmoothScroll from "@/components/SmoothScroll";
 // });
 
 export const metadata: Metadata = {
-  title: "Pagani Zonda Utopia | Cinematic Experience",
+  title: "Pagani Utopia | Cinematic Experience",
+
   description: "A scroll-driven journey through automotive perfection.",
 };
 
