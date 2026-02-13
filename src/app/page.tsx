@@ -2,6 +2,7 @@
 
 import ImageSequenceCanvas from "@/components/ImageSequenceCanvas";
 import Overlay from "@/components/Overlay";
+import MoreInfo from "@/components/MoreInfo";
 
 export default function Home() {
   return (
@@ -33,6 +34,7 @@ export default function Home() {
       {/* Scroll indicator if needed at the start, 
           but Overlay handles the main title. 
       */}
+      <MoreInfo />
     </main>
   );
 }
