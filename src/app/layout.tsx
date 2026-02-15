@@ -3,6 +3,7 @@ import { Cinzel, Montserrat } from "next/font/google";
 import "./globals.css";
 import SmoothScroll from "@/components/SmoothScroll";
 import Navbar from "@/components/Navbar";
+import EasterEggs from "@/components/EasterEggs";
 
 const cinzel = Cinzel({
   variable: "--font-cinzel",
@@ -33,6 +34,7 @@ export default function RootLayout({
         <SmoothScroll>
           {children}
         </SmoothScroll>
+        <EasterEggs />
         <div className="grain-overlay" />
       </body>
     </html>
