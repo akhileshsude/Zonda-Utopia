@@ -104,7 +104,7 @@ export default function ImageSequenceCanvas() {
         <div className="fixed top-0 left-0 w-full h-screen z-0 bg-[#050505]">
             <canvas ref={canvasRef} className="block w-full h-full" />
             {!isLoaded && (
-                <div className="absolute inset-0 flex items-center justify-center text-[#D4AF37] text-sm tracking-widest uppercase">
+                <div className="absolute inset-0 flex items-center justify-center text-[#CC0000] text-sm tracking-widest uppercase">
                     Loading Cinematic Experience...
                 </div>
             )}

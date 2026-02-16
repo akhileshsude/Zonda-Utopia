@@ -13,8 +13,8 @@ export default function Navbar() {
                         icon: "🔩",
                         style: {
                             background: "#1a1a1a",
-                            color: "#D4AF37",
-                            border: "1px solid #D4AF37",
+                            color: "#CC0000",
+                            border: "1px solid #CC0000",
                         }
                     });
                 }}
@@ -22,16 +22,16 @@ export default function Navbar() {
                 Pagani
             </div>
             <div className="hidden md:flex space-x-8 text-sm tracking-widest uppercase items-center">
-                <Link href="#" className="hover:text-[#D4AF37] transition-colors duration-300">
+                <Link href="#" className="hover:text-[#CC0000] transition-colors duration-300">
                     Model
                 </Link>
-                <Link href="#" className="hover:text-[#D4AF37] transition-colors duration-300">
+                <Link href="#" className="hover:text-[#CC0000] transition-colors duration-300">
                     Specs
                 </Link>
-                <Link href="#" className="hover:text-[#D4AF37] transition-colors duration-300">
+                <Link href="#" className="hover:text-[#CC0000] transition-colors duration-300">
                     Bespoke
                 </Link>
-                <Link href="#" className="hover:text-[#D4AF37] transition-colors duration-300 border border-white/20 px-4 py-2 hover:border-[#D4AF37]/50">
+                <Link href="#" className="hover:text-[#CC0000] transition-colors duration-300 border border-white/20 px-4 py-2 hover:border-[#CC0000]/50">
                     Enquire
                 </Link>
             </div>

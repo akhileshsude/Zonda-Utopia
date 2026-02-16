@@ -43,7 +43,7 @@ export default function Overlay() {
                 <div className="text-center">
                     <h1 className="text-6xl md:text-9xl font-bold tracking-tighter uppercase text-white mix-blend-difference">
                         Pagani <br />
-                        <span className="text-[#D4AF37] text-glow">Utopia</span>
+                        <span className="text-[#CC0000] text-glow">Utopia</span>
 
                     </h1>
                     <p className="mt-4 text-sm tracking-[0.5em] text-gray-400 uppercase">
@@ -54,8 +54,8 @@ export default function Overlay() {
 
             {/* 20-40% Engine */}
             <Section range={[0.2, 0.4]} progress={scrollYProgress}>
-                <div className="flex flex-col items-center md:items-start md:ml-[-40vw] max-w-md bg-black/50 p-8 backdrop-blur-md border-l-2 border-[#D4AF37]">
-                    <h2 className="text-4xl font-light text-[#D4AF37] mb-2 uppercase">V12 Twin Turbo</h2>
+                <div className="flex flex-col items-center md:items-start md:ml-[-40vw] max-w-md bg-black/50 p-8 backdrop-blur-md border-l-2 border-[#CC0000]">
+                    <h2 className="text-4xl font-light text-[#CC0000] mb-2 uppercase">V12 Twin Turbo</h2>
                     <div className="grid grid-cols-2 gap-8 text-sm tracking-widest">
                         <div>
                             <p className="text-gray-500">Power</p>
@@ -77,7 +77,7 @@ export default function Overlay() {
                         Designed to slice through the air with surgical precision. Active aerodynamics adapt in real-time.
                     </p>
                     <div className="mt-8 flex gap-4">
-                        <div className="h-1 w-24 bg-[#D4AF37]"></div>
+                        <div className="h-1 w-24 bg-[#CC0000]"></div>
                         <div className="h-1 w-12 bg-gray-700"></div>
                     </div>
                 </div>
@@ -85,8 +85,8 @@ export default function Overlay() {
 
             {/* 60-80% Interior */}
             <Section range={[0.6, 0.8]} progress={scrollYProgress}>
-                <div className="text-center bg-black/80 p-12 border border-[#D4AF37]/30 rounded-full w-[500px] h-[500px] flex flex-col items-center justify-center backdrop-blur-xl">
-                    <h3 className="text-sm tracking-[0.5em] text-[#D4AF37] mb-4">INTERIOR</h3>
+                <div className="text-center bg-black/80 p-12 border border-[#CC0000]/30 rounded-full w-[500px] h-[500px] flex flex-col items-center justify-center backdrop-blur-xl">
+                    <h3 className="text-sm tracking-[0.5em] text-[#CC0000] mb-4">INTERIOR</h3>
                     <p className="text-3xl font-serif italic text-white/90">
                         "A celebration of analog mechanical purity."
                     </p>
@@ -99,14 +99,14 @@ export default function Overlay() {
                     <h2 className="text-6xl md:text-8xl font-bold tracking-tight mb-8">
                         The Legend
                     </h2>
-                    <button className="px-8 py-4 border border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-black transition-all duration-500 uppercase tracking-widest text-sm">
+                    <button className="px-8 py-4 border border-[#CC0000] text-[#CC0000] hover:bg-[#CC0000] hover:text-black transition-all duration-500 uppercase tracking-widest text-sm">
                         Discover More
                     </button>
                 </div>
             </Section>
 
             {/* Persistent Progress Bar or HUD Elements */}
-            <div className="fixed bottom-10 left-10 text-xs text-[#D4AF37] font-mono z-50 mix-blend-exclusion">
+            <div className="fixed bottom-10 left-10 text-xs text-[#CC0000] font-mono z-50 mix-blend-exclusion">
                 PAGANI AUTOMOBILI © 2026
             </div>
         </>

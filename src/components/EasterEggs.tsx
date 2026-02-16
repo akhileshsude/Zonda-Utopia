@@ -35,11 +35,11 @@ export default function EasterEggs() {
         // Console Art & Quote
         console.log(
             `%c${PAGANI_ASCII}`,
-            "color: #D4AF37; font-weight: bold; font-family: monospace;"
+            "color: #CC0000; font-weight: bold; font-family: monospace;"
         );
         console.log(
             `%c"Art and Science are disciplines that can be combined with each other." - Leonardo da Vinci`,
-            "color: #ededed; font-style: italic; font-size: 14px; background: #1a1a1a; padding: 10px; border-left: 4px solid #D4AF37;"
+            "color: #ededed; font-style: italic; font-size: 14px; background: #1a1a1a; padding: 10px; border-left: 4px solid #CC0000;"
         );
 
         const handleKeyDown = (e: KeyboardEvent) => {
@@ -54,8 +54,8 @@ export default function EasterEggs() {
                             icon: "🏎️",
                             style: {
                                 background: "#1a1a1a",
-                                color: "#D4AF37",
-                                border: "1px solid #D4AF37",
+                                color: "#CC0000",
+                                border: "1px solid #CC0000",
                             },
                             duration: 5000,
                         }
@@ -70,8 +70,8 @@ export default function EasterEggs() {
                             icon: "🖌️",
                             style: {
                                 background: "#1a1a1a",
-                                color: "#D4AF37",
-                                border: "1px solid #D4AF37",
+                                color: "#CC0000",
+                                border: "1px solid #CC0000",
                             },
                             duration: 5000,
                         }

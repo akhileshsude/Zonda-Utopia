@@ -3,8 +3,8 @@
 :root {
   --background: #0a0a0a;
   --foreground: #ededed;
-  --gold: #D4AF37;
-  --gold-dim: #8a7122;
+  --gold: #CC0000;
+  --gold-dim: #8B0000;
 }
 
 body {
@@ -25,14 +25,14 @@ h6,
 }
 
 @theme {
-  --color-gold: #D4AF37;
-  --color-gold-dim: #8a7122;
+  --color-gold: #CC0000;
+  --color-gold-dim: #8B0000;
   --color-dark-bg: #050505;
 }
 
 /* Custom Utilities */
 @utility text-glow {
-  text-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+  text-shadow: 0 0 20px rgba(204, 0, 0, 0.3);
 }
 
 @utility glitch-text {
